@@ -1,0 +1,270 @@
+body {
+    background-color: rgb(186, 206, 243);
+    text-align: center;
+}
+
+main {
+    min-height: 140vh;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+
+
+}
+
+header {
+    background-color: black;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+
+
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    color: blueviolet;
+}
+
+ul li a:active {
+    background-color: rgb(216, 194, 194);
+    color: brown;
+}
+
+.heading {
+    margin-top: 20px;
+    font-family: 'Segoe UI', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Verdana, sans-serif;
+    color: rgb(112, 94, 59);
+    font-style: bold;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Segoe UI', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(131, 73, 32);
+}
+
+.box {
+    background-color: bisque;
+    height: 800px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    background-color: rgb(209, 86, 41);
+    height: 270px;
+    width: 270px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+form {
+    font-family: 'Segoe UI', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.marks {
+    margin-top: 45px;
+}
+
+.label {
+    font-size: 27px;
+    margin-top: 10px;
+
+}
+
+.sgpa {
+    margin-top: -30px;
+}
+
+input[type=number] {
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 16px;
+    height: 28px;
+
+
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.but {
+    margin-top: 20px;
+    background-color: yellow;
+    color: rgb(31, 44, 63);
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.but:active {
+    width: 160px;
+    height: 45px;
+    font-size: 25px;
+}
+
+.res {
+    margin-top: 10px;
+    background-color: rgb(172, 144, 144);
+    font-size: 25px;
+    height: 70px;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#a {
+    margin-left: 9px;
+}
+
+footer {
+    height: 35px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+@media (max-width:800px) {
+    main {
+        min-height: 180vh;
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+
+    ul li {
+
+        font-size: 12px;
+
+    }
+
+    .heading {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 19px;
+        text-align: center;
+        color: rgb(131, 73, 32);
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .box {
+        height: 1000px;
+        margin-right: 10px;
+        margin-left: 10px;
+
+    }
+
+    .box1 {
+        width: auto;
+        margin-left: 25px;
+        margin-right: 25px;
+        height: 300px;
+
+
+    }
+
+    input[type=number] {
+        height: 21px;
+    }
+
+    .label {
+        font-size: 20px;
+        margin-top: 10px;
+
+
+    }
+
+    .but {
+
+        width: 130px;
+        height: 35px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+
+    .but:active {
+        width: 150px;
+        height: 45px;
+        font-size: 25px;
+    }
+
+    .res {
+
+        font-size: 14px;
+        height: 50px;
+        margin-right: 60px;
+        margin-left: 60px;
+        font-weight: bold;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+}
