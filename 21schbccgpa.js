@@ -165,10 +165,10 @@ function check() {
     }
 
 
-    let s1 = parseFloat(document.getElementById("s1").value);
-    let s2 = parseFloat(document.getElementById("s2").value);
-    let s3 = parseFloat(document.getElementById("s3").value);
-    let s4 = parseFloat(document.getElementById("s4").value);
+    let s1 = parseFloat(document.getElementById("a").value);
+    let s2 = parseFloat(document.getElementById("b").value);
+    let s3 = parseFloat(document.getElementById("c").value);
+    let s4 = parseFloat(document.getElementById("d").value);
 
     let a = [];
     let b = [s1, s2, s3, s4];
