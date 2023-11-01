@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>3RD SEM SGPA Calculator </title>
+    <link rel="stylesheet" href="cssfile10.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header">
+                <div class="logo"><span style="color:aliceblue">PTN</span><span style="color:goldenrod;">
+                        CREATIONS</span>
+                </div>
+                <div class="olist">
+                    <ul class="list">
+                        <li class="elem"><a href="index.html">HOME</a></li>
+
+                        <li class="elem"><a href="about.html">ABOUT</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="heading"> <b>3rd SEMESTER SGPA</b><br> </h1>
+        <hr>
+        <div class="container">
+            <div class="header2">
+                <h2>ENTER YOUR MARKS</h2>
+            </div>
+            <div class="box">
+
+                <div>
+                    <p style="font-size: 17px;"><u>Note:</u> For backlog subjects enter the marks as zero.</p>
+                    <form class="marks" novalidate>
+                        <label for="marks" class="label">21MAT31:</label>
+                        <input type="number" class="box2" placeholder="MATHEMATICS-III" inputmode="numeric" min="0"
+                            max="100" id="s1" required><br>
+                        <label for="marks" class="label">21XX32:</label>
+                        <input type="number" class="box2" placeholder="DSA / DSDV / AMP" min="0" max="100"
+                            inputmode="numeric" id="s2" required><br>
+                        <label for="marks" class="label">21XX33:</label>
+                        <input type="number" class="box2" placeholder="ADE / BSP / FM" min="0" max="100"
+                            inputmode="numeric" id="s3" required><br>
+                        <label for="marks" class="label">21XX34:</label>
+                        <input type="number" class="box2" placeholder="COA / AEC / IAE" min="0" max="100"
+                            inputmode="numeric" id="s4" required><br>
+                        <label for="marks" class="label">21XXL35:</label>
+                        <input type="number" class="box2" placeholder="JAVA LAB / ADE LAB / CAAD" min="0" max="100"
+                            inputmode="numeric" id="s5" required><br>
+                        <label for="marks" class="label">21SCR36:</label>
+                        <input type="number" class="box2" placeholder="SCR" min="0" max="100" inputmode="numeric"
+                            id="s6" required><br>
+                        <label for="marks" class="label">21CIP37:</label>
+                        <input type="number" class="box2" inputmode="numeric" placeholder="INDIAN CONSTITUTION" min="0"
+                            max="100" inputmode="numeric" id="s7" required><br>
+                        <label for="marks" class="label">21XXL38X:</label>
+                        <input type="number" class="box2" placeholder="Mastering Office / LIC / DAE" min="0" max="100"
+                            inputmode="numeric" id="s8" required><br>
+
+                    </form>
+                    <p id="warning"></p>
+                    <button type="submit" class="but" onclick="calculate()">Calculate</button>
+
+                </div>
+                <div class="res">
+                    <p>Your SGPA is: </p>
+                    <p id="result">0.00</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="sem3sgpa.js"></script>
+    <footer>
+        &copy Copyright | CGPACalculator.com | All rights are reserved
+
+    </footer>
+</body>
+
+</html>
