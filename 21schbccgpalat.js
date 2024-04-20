@@ -1,6 +1,6 @@
 function check() {
 
-    let sum = 40;
+    let sum = 58;
 
     //3rd semester
     let s31 = document.getElementById("s31");
@@ -23,6 +23,16 @@ function check() {
     let s48 = document.getElementById("s48");
     let s49 = document.getElementById("s49");
     let s410 = document.getElementById("s410");
+
+    //5th semester
+    let s51 = document.getElementById("s51");
+    let s52 = document.getElementById("s52");
+    let s53 = document.getElementById("s53");
+    let s54 = document.getElementById("s54");
+    let s55 = document.getElementById("s55");
+    let s56 = document.getElementById("s56");
+    let s57 = document.getElementById("s57");
+    let s58 = document.getElementById("s58");
 
     //3rd semester
 
@@ -84,22 +94,50 @@ function check() {
         sum = sum - 2;
     }
 
+    //5th semester
+
+    if (s51.checked) {
+        sum = sum - 3;
+    }
+    if (s52.checked) {
+        sum = sum - 4;
+    }
+    if (s53.checked) {
+        sum = sum - 3;
+    }
+    if (s54.checked) {
+        sum = sum - 3;
+    }
+    if (s55.checked) {
+        sum = sum - 1;
+    }
+    if (s56.checked) {
+        sum = sum - 2;
+    }
+    if (s57.checked) {
+        sum = sum - 1;
+    }
+    if (s58.checked) {
+        sum = sum - 1;
+    }
+
 
 
     let s3 = parseFloat(document.getElementById("c").value);
     let s4 = parseFloat(document.getElementById("d").value);
+    let s5 = parseFloat(document.getElementById("e").value);
 
     let a = [];
-    let b = [s3, s4];
-    let c = [18, 22];
+    let b = [s3, s4,s5];
+    let c = [18, 22,18];
     let sum1 = 0;
 
     let result = document.getElementById("result");
-    for (let j = 0; j < 2; j++) {
+    for (let j = 0; j < 3; j++) {
 
         a[j] = b[j] * c[j];
     }
-    for (let i = 0; i < 2; i++) {
+    for (let i = 0; i < 3; i++) {
         sum1 = sum1 + a[i];
 
     }
