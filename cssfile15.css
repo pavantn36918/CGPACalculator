@@ -108,9 +108,8 @@ button {
 }
 
 button:active {
-    width: 390px;
-    height: 87px;
-    font-size: 32px;
+    background-color: rgb(22, 248, 229);
+    color: white;
 }
 
 footer {
@@ -168,9 +167,8 @@ footer {
     }
 
     button:active {
-        width: 310px;
-        height: 85px;
-        font-size: 25px;
+      background-color: rgb(22, 248, 229);
+    color: white;
     }
 
 
