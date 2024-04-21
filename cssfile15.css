@@ -147,7 +147,7 @@ footer {
 
     .box {
 
-        border-radius: none;
+        border-radius: 0px;
         margin-right: 2.5px;
         margin-left: 2.5px;
         height: 630px;
