@@ -85,13 +85,22 @@ a {
 
 .box {
     background-color: rgb(43, 105, 92);
-    height: 170px;
+    height: 270px;
+    border-radius: 10px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.year1 {
     display: flex;
     justify-content: space-evenly;
     border-radius: 10px;
+}
 
-    margin-right: 70px;
-    margin-left: 70px;
+.year2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -10px;
 }
 
 button {
@@ -146,9 +155,7 @@ footer {
     }
 
     .box {
-
-        height: 170px;
-
+            height: 290px;
         margin-right: 2.5px;
         margin-left: 2.5px;
     }
