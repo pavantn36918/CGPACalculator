@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>22 Scheme CGPA Calculator </title>
+    <link rel="stylesheet" href="cssfile4.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header">
+                <div class="logo"><span style="color:aliceblue">PTN</span><span style="color:goldenrod;">
+                        CREATIONS</span>
+                </div>
+                <div class="olist">
+                    <ul class="list">
+                        <li class="elem"><a href="index.html">HOME</a></li>
+
+                        <li class="elem"><a href="about.html">ABOUT</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="heading"> <b>22 SCHEME CGPA CALCULATOR</b><br> </h1>
+        <hr>
+        <div class="container">
+            <div class="header2">
+                <h2>ENTER YOUR SGPA</h2>
+            </div>
+            <div class="box">
+
+                <div>
+                    <form class="marks" novalidate>
+                        <label for="marks" class="label">1ST SEM SGPA:</label>
+                        <input type="number" class="box2" inputmode="numeric" min="0" max="10" id="s1" required><br>
+                        <label for="marks" class="label">2ND SEM SGPA:</label>
+                        <input type="number" class="box2" min="0" max="10" inputmode="numeric" id="s2" required><br>
+                        <label for="marks" class="label">3RD SEM SGPA:</label>
+                        <input type="number" class="box2" min="0" max="10" inputmode="numeric" id="s3" required><br>
+                    </form>
+                    <button type="submit" class="but" onclick="calculate()">Calculate</button>
+
+
+                </div>
+                <div class="res">
+                    <p>Your CGPA is: </p>
+                    <p id="result">0.00</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="22schcgpaece.js"></script>
+    <footer>
+        &copy Copyright | CGPACalculator.com | All rights are reserved
+
+    </footer>
+</body>
+
+</html>
