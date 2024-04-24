@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>22 Scheme CGPA Calculator </title>
+    <link rel="stylesheet" href="cssfile16.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header">
+                <div class="logo"><span style="color:aliceblue">PTN</span><span style="color:goldenrod;">
+                        CREATIONS</span>
+                </div>
+                <div class="olist">
+                    <ul class="list">
+                        <li class="elem"><a href="index.html">HOME</a></li>
+
+                        <li class="elem"><a href="about.html">ABOUT</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="heading">
+            <b>22 SCHEME CGPA CALCULATOR</b>
+        </div>
+        <hr>
+        <div class="conatiner">
+
+            <div class="box">
+                <div class="text">
+                    <h2>Select your backlog subjects</h2>
+                </div>
+                <div class="boxes">
+                    <div class="box1">
+                        <h3><u>Physics cycle</u></h3>
+                        <form>
+                            <label for="entry">
+                                <input type="checkbox" id="s11">Mathematics-I/II</label><br>
+
+                            <label for="entry"> <input type="checkbox" id="s12">Applied Physics</label><br>
+
+                            <label for="entry"><input type="checkbox" id="s13">POP</label><br>
+
+                            <label for="entry"><input type="checkbox" id="s14">Electronics</label><br>
+
+                            <label for="entry"><input type="checkbox" id="s15">Waste management/IOT</label><br>
+
+                            <label for="entry"> <input type="checkbox" id="s16">English-I/II</label><br>
+
+                            <label for="entry"> <input type="checkbox" id="s17">Kannada </label><br>
+
+                            <label for="entry"><input type="checkbox" id="s18">IDT</label><br>
+                        </form>
+                    </div>
+                    <div class="box1">
+                        <h3><u>Chemistry cycle</u></h3>
+                        <form>
+                            <label for="entry">
+                                <input type="checkbox" id="s21">Mathematics-I/II</label><br>
+
+                            <label for="entry"> <input type="checkbox" id="s22">Applied Chemistry</label><br>
+
+                            <label for="entry"><input type="checkbox" id="s23">CAD</label><br>
+
+                            <label for="entry"><input type="checkbox" id="s24">Electrical</label><br>
+
+                            <label for="entry"><input type="checkbox" id="s25">Python Programming</label><br>
+
+                            <label for="entry"> <input type="checkbox" id="s26">English-I/II</label><br>
+
+                            <label for="entry"> <input type="checkbox" id="s27">Indian Constitution </label><br>
+
+                            <label for="entry"><input type="checkbox" id="s28">SFH</label><br>
+                        </form>
+                    </div>
+                    <div class="box1">
+                        <h3><u>3RD SEMESTER</u></h3>
+                        <form>
+                            <label for="entry">
+                                <input type="checkbox" id="s31">AET / AMP</label><br>
+
+                            <label for="entry"> <input type="checkbox" id="s32">AMP / Elements of
+                                Aeronautics</label><br>
+
+                            <label for="entry"><input type="checkbox" id="s33">FLUID MECHANICS</label><br>
+
+                            <label for="entry"><input type="checkbox" id="s34">Introduction to Aerospace eng /
+                                MOM</label><br>
+
+                            <label for="entry"><input type="checkbox" id="s35">CAAD</label><br>
+
+                            <label for="entry"> <input type="checkbox" id="s36">Engineering Science Course</label><br>
+
+                            <label for="entry"> <input type="checkbox" id="s37">SCR</label><br>
+
+                            <label for="entry"><input type="checkbox" id="s38">Ability Enhancement Course</label><br>
+                        </form>
+                    </div>
+                </div><br><br><br>
+
+                <div class="text">
+                    <h2>Enter your SGPA</h2>
+                </div>
+                <div class="sgpa">
+                    <form class="marks" novalidate>
+                        <label for="marks" class="label">1ST SEM SGPA:</label>
+                        <input type="number" class="box2" inputmode="numeric" min="0" max="10" id="a" required><br>
+                        <label for="marks" class="label">2ND SEM SGPA:</label>
+                        <input type="number" class="box2" min="0" max="10" inputmode="numeric" id="b" required><br>
+                        <label for="marks" class="label">3RD SEM SGPA:</label>
+                        <input type="number" class="box2" min="0" max="10" inputmode="numeric" id="c" required><br>
+                    </form>
+                    <button type="submit" class="but" onclick="check()">Calculate</button>
+
+
+                </div>
+                <div class="res">
+                    <p>Your CGPA is: </p>
+                    <p id="result">0.00</p>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="22schbcececgpa.js"></script>
+    <footer>
+        &copy Copyright | CGPACalculator.com | All rights are reserved
+
+    </footer>
+
+</body>
+
+</html>
