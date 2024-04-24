@@ -5,7 +5,7 @@ function calculate() {
 
     let a = [];
     let b = [s1, s2, s3];
-    let c = [20, 20, 19];
+    let c = [20, 20, 20];
     let sum = 0;
 
     let result = document.getElementById("result");
@@ -17,6 +17,6 @@ function calculate() {
         sum = sum + a[i];
 
     }
-    let res = sum / 59;
+    let res = sum / 60;
     result.innerHTML = res.toFixed(2);
 }
