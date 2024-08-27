@@ -125,6 +125,27 @@ input[type="number"]::-webkit-outer-spin-button {
     font-size: 15px;
 }
 
+.butt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#download-btn {
+    margin-top: 20px;
+    background-color: yellow;
+    color: rgb(31, 44, 63);
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 200px;
+}
+
+#download-btn:active {
+    height: 45px;
+    font-size: 23px;
+}
+
 .but {
     margin-top: 20px;
     background-color: yellow;
@@ -235,6 +256,22 @@ footer {
 
     .but:active {
         width: 150px;
+        height: 40px;
+        font-size: 20px;
+    }
+#download-btn {
+        margin-top: 20px;
+        background-color: yellow;
+        color: rgb(31, 44, 63);
+        height: 30px;
+        border-radius: 10px;
+        font-size: 15px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #download-btn:active {
+
         height: 40px;
         font-size: 20px;
     }
