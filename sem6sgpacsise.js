@@ -153,7 +153,7 @@ function calculate() {
             body: [
                 ['1', '21CS61', 'Software Engineering and Project management', a[0], b[0], gpl[0], lgl[0], b[0] * gpl[0]],
                 ['2', '21CS62', 'Fullstack Development', a[1], b[1], gpl[1], lgl[1], b[1] * gpl[1]],
-                ['3', '21CS63', 'Computer Graphics and Fundamentals of Image Processing / \n Software Testing', a[2], b[2], gpl[2], lgl[2], b[2] * gpl[2]],
+                ['3', '21CS63/21IS63', 'Computer Graphics and Fundamentals of Image Processing / \n Software Testing', a[2], b[2], gpl[2], lgl[2], b[2] * gpl[2]],
                 ['4', '21XX64x', 'Data Science and Visualisation / \n Data Mining', a[3], b[3], gpl[3], lgl[3], b[3] * gpl[3]],
                 ['5', '21XX65x', 'Conservation of Natural Resources / \n Renewable Energy Power Plant', a[4], b[4], gpl[4], lgl[4], b[4] * gpl[4]],
                 ['6', '21CSL66', 'Computer Graphics Lab / \n Software Testing Lab', a[5], b[5], gpl[5], lgl[5], b[5] * gpl[5]],
