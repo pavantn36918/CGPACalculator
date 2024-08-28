@@ -1,6 +1,6 @@
 function check() {
 
-    let sum = 98;
+    let sum = 120;
     //physics cycle
     let s11 = document.getElementById("s11");
     let s12 = document.getElementById("s12");
@@ -54,6 +54,17 @@ function check() {
     let s56 = document.getElementById("s56");
     let s57 = document.getElementById("s57");
     let s58 = document.getElementById("s58");
+
+    //6th semester
+    let s61 = document.getElementById("s61");
+    let s62 = document.getElementById("s62");
+    let s63 = document.getElementById("s63");
+    let s64 = document.getElementById("s64");
+    let s65 = document.getElementById("s65");
+    let s66 = document.getElementById("s66");
+    let s67 = document.getElementById("s67");
+    let s68 = document.getElementById("s68");
+
 
 
     //physics cycle
@@ -202,23 +213,50 @@ function check() {
     }
 
 
+    //6th semester
+
+    if (s61.checked) {
+        sum = sum - 3;
+    }
+    if (s62.checked) {
+        sum = sum - 4;
+    }
+    if (s63.checked) {
+        sum = sum - 3;
+    }
+    if (s64.checked) {
+        sum = sum - 3;
+    }
+    if (s65.checked) {
+        sum = sum - 3;
+    }
+    if (s66.checked) {
+        sum = sum - 1;
+    }
+    if (s67.checked) {
+        sum = sum - 2;
+    }
+    if (s68.checked) {
+        sum = sum - 3;
+    }
     let s1 = parseFloat(document.getElementById("a").value);
     let s2 = parseFloat(document.getElementById("b").value);
     let s3 = parseFloat(document.getElementById("c").value);
     let s4 = parseFloat(document.getElementById("d").value);
     let s5 = parseFloat(document.getElementById("e").value);
+    let s6 = parseFloat(document.getElementById("f").value);
 
     let a = [];
-    let b = [s1, s2, s3, s4,s5];
-    let c = [20, 20, 18, 22,18];
+    let b = [s1, s2, s3, s4, s5, s6];
+    let c = [20, 20, 18, 22, 18, 22];
     let sum1 = 0;
 
     let result = document.getElementById("result");
-    for (let j = 0; j < 5; j++) {
+    for (let j = 0; j < 6; j++) {
 
         a[j] = b[j] * c[j];
     }
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 6; i++) {
         sum1 = sum1 + a[i];
 
     }
