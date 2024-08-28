@@ -38,7 +38,7 @@ function calculate() {
 
 
         //Water mark
-        const watermarkText = "PTN CREATIONS";
+        const watermarkText = "PTN WebCreations";
         const pageWidth = doc.internal.pageSize.getWidth();
         const pageHeight = doc.internal.pageSize.getHeight();
 
