@@ -157,7 +157,7 @@ function calculate() {
                 ['3', 'BCS403', 'Database Management Systems', a[2], b[2], gpl[2], lgl[2], b[2] * gpl[2]],
                 ['4', 'BCSL404', 'Analysis & Design of Algorithms Lab', a[3], b[3], gpl[3], lgl[3], b[3] * gpl[3]],
                 ['5', 'BCS405x', 'Discrete Mathematical Structures ', a[4], b[4], gpl[4], lgl[4], b[4] * gpl[4]],
-                ['6', 'BCS456x', 'LATEX', a[5], b[5], gpl[5], lgl[5], b[5] * gpl[5]],
+                ['6', 'BCS456x', 'Technical Writing Using LATEX', a[5], b[5], gpl[5], lgl[5], b[5] * gpl[5]],
                 ['7', 'BBOC407', 'Biology For Computer Engineers', a[6], b[6], gpl[6], lgl[6], b[6] * gpl[6]],
                 ['8', 'BUHK408', 'Universal Human Values Course', a[7], b[7], gpl[7], lgl[7], b[7] * gpl[7]],
                 ['8', 'BPEK459', 'Physical Education', s9, "0", check(s9), grade(s9), "0"],
