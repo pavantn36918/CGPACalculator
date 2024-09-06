@@ -156,7 +156,7 @@ function calculate() {
                 ['3', '21CS63/21IS63', 'Computer Graphics and Fundamentals of Image Processing / \n Software Testing', a[2], b[2], gpl[2], lgl[2], b[2] * gpl[2]],
                 ['4', '21XX64x', 'Data Science and Visualisation / \n Data Mining', a[3], b[3], gpl[3], lgl[3], b[3] * gpl[3]],
                 ['5', '21XX65x', 'Conservation of Natural Resources / \n Renewable Energy Power Plant', a[4], b[4], gpl[4], lgl[4], b[4] * gpl[4]],
-                ['6', '21CSL66', 'Computer Graphics Lab / \n Software Testing Lab', a[5], b[5], gpl[5], lgl[5], b[5] * gpl[5]],
+                ['6', '21CSL66/21ISL66', 'Computer Graphics Lab / \n Software Testing Lab', a[5], b[5], gpl[5], lgl[5], b[5] * gpl[5]],
                 ['7', '21CSMP67', 'Mini Project', a[6], b[6], gpl[6], lgl[6], b[6] * gpl[6]],
                 ['8', '21INT68', 'Internship', a[7], b[7], gpl[7], lgl[7], b[7] * gpl[7]],
             ],
