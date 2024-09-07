@@ -216,7 +216,7 @@ function calculate() {
         // Add a link to the text
         doc.setTextColor(0, 0, 255);  // Set link color (blue)
         doc.text(linkText, x, y);
-        doc.link(x, y - 10, linkWidth, linkHeight, { url: 'https://www.linkedin.com/in/pavan-tn-a6b184267/' });
+        doc.link(x, y - 10, linkWidth, linkHeight, { url: 'https://pavantn36918.github.io/Portfolio/' });
 
 
 
