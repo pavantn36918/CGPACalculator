@@ -160,7 +160,7 @@ function calculate() {
                 ['6', 'BCS456x', 'Technical Writing Using LATEX', a[5], b[5], gpl[5], lgl[5], b[5] * gpl[5]],
                 ['7', 'BBOC407', 'Biology For Computer Engineers', a[6], b[6], gpl[6], lgl[6], b[6] * gpl[6]],
                 ['8', 'BUHK408', 'Universal Human Values Course', a[7], b[7], gpl[7], lgl[7], b[7] * gpl[7]],
-                 ['9', 'BNSK459\nBPEK459\nBYOK459 ', 'NSS / \nPhysical Education / \n Yoga', s9, "0", check(s9), grade(s9), "0"],
+                 ['9', 'BNSK459 /\nBPEK459 /\nBYOK459 ', 'NSS / \nPhysical Education / \n Yoga', s9, "0", check(s9), grade(s9), "0"],
             ],
             theme: 'plain',
             styles: {
