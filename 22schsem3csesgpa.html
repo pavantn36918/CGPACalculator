@@ -67,22 +67,27 @@
                             inputmode="numeric" id="s8" required><br>
                         <label for="marks" class="label">BPEK359:</label>
                         <input type="number" class="box2" placeholder="PHYSICAL EDUCATION" min="0" max="100"
-                            inputmode="numeric" required><br>
+                            inputmode="numeric" id="s9" required><br>
 
                     </form>
                     <p id="warning"></p>
-                    <button type="submit" class="but" onclick="calculate()">Calculate</button>
+                    <a href="#report"> <button type="submit" class="but" onclick="calculate()">Calculate</button> </a>
+                </div>
+                <section id="report">
+                    <div class="res">
+                        <p>Your SGPA is: </p>
+                        <p id="result">0.00</p>
+                    </div>
 
-                </div>
-                <div class="res">
-                    <p>Your SGPA is: </p>
-                    <p id="result">0.00</p>
-                </div>
+                    <div class="butt">
+                        <button id="download-btn" style="display:none;">Download Report</button>
+                    </div>
+                </section>
             </div>
         </div>
 
     </main>
-    <script src="22schsem3csesgpa.js"></script>
+    <script src="22schsem3csesgpa.html"></script>
     <footer>
         &copy Copyright | CGPACalculator.com | All rights are reserved
 
