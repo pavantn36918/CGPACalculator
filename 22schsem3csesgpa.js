@@ -99,7 +99,7 @@ function calculate() {
 
     let cn = res.toFixed(2);
     let sg = 'Your SGPA is :' + cn;
-    let heading = '4th SEM GRADE REPORT';
+    let heading = '3rd SEM GRADE REPORT';
     let web = "VTU CGPA & SGPA CALCULATOR";
 
 
@@ -166,7 +166,7 @@ function calculate() {
                 ['6', 'BCS306x', 'Java', a[5], b[5], gpl[5], lgl[5], b[5] * gpl[5]],
                 ['7', 'BSCK307', 'Social Connect and Responsibility', a[6], b[6], gpl[6], lgl[6], b[6] * gpl[6]],
                 ['8', 'BCS358x', 'Ability Enhancement Course', a[7], b[7], gpl[7], lgl[7], b[7] * gpl[7]],
-                ['9', 'BNSK459 /\nBPEK459 /\nBYOK459 ', 'NSS / \nPhysical Education / \n Yoga', s9, "0", check(s9), grade(s9), "0"],
+                ['9', 'BNSK359 /\nBPEK359 /\nBYOK359 ', 'NSS / \nPhysical Education / \n Yoga', s9, "0", check(s9), grade(s9), "0"],
             ],
             theme: 'plain',
             styles: {
@@ -285,7 +285,7 @@ function calculate() {
         doc.setFontSize(19)
         doc.text("To visit Website", 86, 220);
 
-        doc.save("4th sem grade report.pdf");
+        doc.save("3rd sem grade report.pdf");
 
 
 
