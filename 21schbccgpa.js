@@ -1,6 +1,6 @@
 function check() {
 
-    let sum = 120;
+    let sum = 144;
     //physics cycle
     let s11 = document.getElementById("s11");
     let s12 = document.getElementById("s12");
@@ -245,18 +245,19 @@ function check() {
     let s4 = parseFloat(document.getElementById("d").value);
     let s5 = parseFloat(document.getElementById("e").value);
     let s6 = parseFloat(document.getElementById("f").value);
+    let s7 = parseFloat(document.getElementById("g").value);
 
     let a = [];
-    let b = [s1, s2, s3, s4, s5, s6];
-    let c = [20, 20, 18, 22, 18, 22];
+    let b = [s1, s2, s3, s4, s5, s6, s7];
+    let c = [20, 20, 18, 22, 18, 22, 24];
     let sum1 = 0;
 
     let result = document.getElementById("result");
-    for (let j = 0; j < 6; j++) {
+    for (let j = 0; j < 7; j++) {
 
         a[j] = b[j] * c[j];
     }
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 7; i++) {
         sum1 = sum1 + a[i];
 
     }
