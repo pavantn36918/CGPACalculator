@@ -4,22 +4,24 @@ function calculate() {
     let s4 = parseFloat(document.getElementById("s4").value);
     let s5 = parseFloat(document.getElementById("s5").value);
     let s6 = parseFloat(document.getElementById("s6").value);
+    let s7 = parseFloat(document.getElementById("s7").value);
+
 
     let a = [];
-    let b = [s3, s4, s5, s6];
-    let c = [18, 22, 18, 22];
+    let b = [s3, s4, s5, s6, s7];
+    let c = [18, 22, 18, 22, 24];
     let sum = 0;
 
     let result = document.getElementById("result");
-    for (let j = 0; j < 4; j++) {
+    for (let j = 0; j < 5; j++) {
 
         a[j] = b[j] * c[j];
     }
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 5; i++) {
         sum = sum + a[i];
 
     }
-    let res = sum / 80;
+    let res = sum / 104;
     result.innerHTML = res.toFixed(2);
 
     document.getElementById('download-btn').style.display = 'block';
@@ -38,7 +40,7 @@ function calculate() {
 
 
         //Water mark
-        const watermarkText = "PTN WebCreations";
+        const watermarkText = "PTN CREATIONS";
         const pageWidth = doc.internal.pageSize.getWidth();
         const pageHeight = doc.internal.pageSize.getHeight();
 
@@ -89,6 +91,8 @@ function calculate() {
                 ['4', c[1], b[1], a[1].toFixed(0)],
                 ['5', c[2], b[2], a[2].toFixed(0)],
                 ['6', c[3], b[3], a[3].toFixed(0)],
+                ['7', c[4], b[4], a[4].toFixed(0)],
+
 
 
             ],
@@ -109,7 +113,7 @@ function calculate() {
 
         doc.autoTable({
             head: [['Total Credit points', 'Total Credits', 'CGPA']],
-            body: [[sum.toFixed(0), '80', cn]],
+            body: [[sum.toFixed(0), '104', cn]],
             theme: 'plain',
             styles: {
                 halign: 'center',
@@ -147,7 +151,7 @@ function calculate() {
         // Add a link to the text
         doc.setTextColor(0, 0, 255);  // Set link color (blue)
         doc.text(linkText, x, y);
-        doc.link(x, y - 10, linkWidth, linkHeight, { url: 'https://pavantn36918.github.io/Portfolio/' });
+        doc.link(x, y - 10, linkWidth, linkHeight, { url: 'https://www.linkedin.com/in/pavan-tn-a6b184267/' });
 
 
 
@@ -211,6 +215,8 @@ function calculate() {
         doc.text("To visit Website", 86, 170);
 
         doc.save("CGPA report.pdf");
+
+
 
     });
 }
