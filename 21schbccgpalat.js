@@ -1,6 +1,6 @@
 function check() {
 
-    let sum = 80;
+    let sum = 104;
 
     //3rd semester
     let s31 = document.getElementById("s31");
@@ -162,18 +162,20 @@ function check() {
     let s4 = parseFloat(document.getElementById("d").value);
     let s5 = parseFloat(document.getElementById("e").value);
     let s6 = parseFloat(document.getElementById("f").value);
+    let s7 = parseFloat(document.getElementById("g").value);
+
 
     let a = [];
-    let b = [s3, s4, s5, s6];
-    let c = [18, 22, 18, 22];
+    let b = [s3, s4, s5, s6, s7];
+    let c = [18, 22, 18, 22, 24];
     let sum1 = 0;
 
     let result = document.getElementById("result");
-    for (let j = 0; j < 4; j++) {
+    for (let j = 0; j < 5; j++) {
 
         a[j] = b[j] * c[j];
     }
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 5; i++) {
         sum1 = sum1 + a[i];
 
     }
