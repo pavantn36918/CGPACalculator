@@ -7,22 +7,24 @@ function calculate() {
     let s4 = parseFloat(document.getElementById("s4").value);
     let s5 = parseFloat(document.getElementById("s5").value);
     let s6 = parseFloat(document.getElementById("s6").value);
+    let s7 = parseFloat(document.getElementById("s7").value);
+
 
     let a = [];
-    let b = [s1, s2, s3, s4, s5, s6];
-    let c = [20, 20, 18, 22, 18, 22];
+    let b = [s1, s2, s3, s4, s5, s6, s7];
+    let c = [20, 20, 18, 22, 18, 22, 24];
     let sum = 0;
 
     let result = document.getElementById("result");
-    for (let j = 0; j < 6; j++) {
+    for (let j = 0; j < 7; j++) {
 
         a[j] = b[j] * c[j];
     }
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 7; i++) {
         sum = sum + a[i];
 
     }
-    let res = sum / 120;
+    let res = sum / 144;
     result.innerHTML = res.toFixed(2);
 
     document.getElementById('download-btn').style.display = 'block';
@@ -41,7 +43,7 @@ function calculate() {
 
 
         //Water mark
-        const watermarkText = "PTN WebCreations";
+        const watermarkText = "PTN CREATIONS";
         const pageWidth = doc.internal.pageSize.getWidth();
         const pageHeight = doc.internal.pageSize.getHeight();
 
@@ -94,6 +96,7 @@ function calculate() {
                 ['4', c[3], b[3], a[3].toFixed(0)],
                 ['5', c[4], b[4], a[4].toFixed(0)],
                 ['6', c[5], b[5], a[5].toFixed(0)],
+                ['7', c[6], b[6], a[6].toFixed(0)],
 
             ],
             theme: 'plain',
@@ -113,7 +116,7 @@ function calculate() {
 
         doc.autoTable({
             head: [['Total Credit points', 'Total Credits', 'CGPA']],
-            body: [[sum.toFixed(0), '120', cn]],
+            body: [[sum.toFixed(0), '144', cn]],
             theme: 'plain',
             styles: {
                 halign: 'center',
@@ -151,7 +154,7 @@ function calculate() {
         // Add a link to the text
         doc.setTextColor(0, 0, 255);  // Set link color (blue)
         doc.text(linkText, x, y);
-        doc.link(x, y - 10, linkWidth, linkHeight, { url: 'https://pavantn36918.github.io/Portfolio/' });
+        doc.link(x, y - 10, linkWidth, linkHeight, { url: 'https://www.linkedin.com/in/pavan-tn-a6b184267/' });
 
 
 
